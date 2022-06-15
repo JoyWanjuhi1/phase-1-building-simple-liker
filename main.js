@@ -4,7 +4,11 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-
+document.getElementById("errorbtn")
+        .addEventListener("click", function() {
+  document.getElementById("welcome").hidden = true;
+  document.getElementById("awesome").hidden = false;
+}, false);
 
 
 //------------------------------------------------------------------------------
